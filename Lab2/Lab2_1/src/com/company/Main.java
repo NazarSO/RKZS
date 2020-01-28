@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    int x, y;
-	    boolean CheckValue = false;
+	int x, y;
+	boolean CheckValue = false;
         Scanner in = new Scanner(System.in);
 
         while (CheckValue == false) {
