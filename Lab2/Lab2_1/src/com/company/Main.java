@@ -1,45 +1,43 @@
 package com.company;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-	    int ArrayX[] = {0, 1, 2}, ArrayY[]={0, 1, 2}, numb;
+	    int x, y, z;
+        Scanner in = new Scanner(System.in);
 
-	    System.out.print("y/x\t0\t1\t2\n");
-
-	    for(int i=0; i<3; i++){ //y
-
-	        System.out.print(i + "\t");
-
-	        for(int j=0; j<3; j++){ //x
-	            if((i==0)&&(j==0)){
-	                System.out.print("2\t");
-                }
-	            else if((i==0)&&(j==1)){
-                    System.out.print("2\t");
-                }
-	            else if((i==0)&&(j==2)){
-                    System.out.print("0\n");
-                }
-                else if((i==1)&&(j==0)){
-                    System.out.print("1\t");
-                }
-                else if((i==1)&&(j==1)){
-                    System.out.print("2\t");
-                }
-                else if((i==1)&&(j==2)){
-                    System.out.print("0\n");
-                }
-                else if((i==2)&&(j==0)){
-                    System.out.print("2\t");
-                }
-                else if((i==2)&&(j==1)){
-                    System.out.print("2\t");
-                }
-                else if((i==2)&&(j==2)){
-                    System.out.print("1\n");
-                }
-            }
+	    System.out.print("x = ");
+	    x=in.nextInt();
+        System.out.print("y = ");
+        y=in.nextInt();
+        
+        if((x==0)&&(y==0)){
+            System.out.print("2\t");
+        }
+        else if((x==0)&&(y==1)){
+            System.out.print("2\t");
+        }
+        else if((x==0)&&(y==2)){
+            System.out.print("0\n");
+        }
+        else if((x==1)&&(y==0)){
+            System.out.print("1\t");
+        }
+        else if((x==1)&&(y==1)){
+            System.out.print("2\t");
+        }
+        else if((x==1)&&(y==2)){
+            System.out.print("0\n");
+        }
+        else if((x==2)&&(y==0)){
+            System.out.print("2\t");
+        }
+        else if((x==2)&&(y==1)){
+            System.out.print("2\t");
+        }
+        else if((x==2)&&(y==2)) {
+            System.out.print("1\n");
         }
     }
 }
