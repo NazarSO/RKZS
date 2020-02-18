@@ -44,8 +44,8 @@ public class Main {
             if (CheckAnswer == 1) {
 
                 do {
-                System.out.println("What you want to know? (1 - profit; 2 - losses)");
-                CheckAnswer = in.nextInt();
+                    System.out.println("What you want to know? (1 - profit; 2 - losses)");
+                    CheckAnswer = in.nextInt();
 
                     if (CheckAnswer == 1) {
 
