@@ -79,7 +79,7 @@ public class Server {
         public void run() {
             try {
                 name = in.readLine();
-                // ��ࠢ�塞 �ᥬ �����⠬ ᮮ�饭�� � ⮬, �� ���� ���� ���짮��⥫�
+
                 synchronized(connections) {
                     Iterator<Connection> iter = connections.iterator();
                     while(iter.hasNext()) {
